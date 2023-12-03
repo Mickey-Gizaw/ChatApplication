@@ -1,5 +1,5 @@
 import "./App.css";
-import { Join } from "./components/join";
+import { Join } from "./components/Join";
 
 function App() {
   return <div className="App">
