@@ -28,3 +28,5 @@ You need to have Java 14+ and Docker in order to run following
 #### `cd ..`
 #### `docker-compose up`
 
+3. Go to http://localhost:3000
+
