@@ -5,11 +5,11 @@ spring:
   data:
     mongodb:
 #      uncomment the following to run it locally
-      uri: mongodb://localhost:27017/test
+#      uri: mongodb://localhost:27017/test
 #      uncomment the following to run it with docker compose
-#      host: mongodb
-#      database: test
-#      port: 27017
+      host: mongodb
+      database: test
+      port: 27017
 #     upto here
     mongo.repositories.enabled: true
 events:

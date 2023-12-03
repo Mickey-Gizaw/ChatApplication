@@ -1,6 +1,6 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:14-ea-14-slim-buster
 
-ARG JAR_FILE=target/chat-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=target/backend-service-0.0.1.jar
 
 WORKDIR /opt/app
 
